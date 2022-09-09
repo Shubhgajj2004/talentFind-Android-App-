@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "362035988827",
+    "project_id": "talent-track-4966f",
+    "storage_bucket": "talent-track-4966f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362035988827:android:567bfde57e471f7868f27e",
+        "android_client_info": {
+          "package_name": "com.shubh.talenttrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362035988827-tve117k46gtueaht95hrlftbh2fb7b2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LzfxOJUgx6-R1rqkm_ejZn_wWnsYANU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362035988827-tve117k46gtueaht95hrlftbh2fb7b2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.JobsFragment"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/product_sans_medium"
+        android:text="Jobs"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/job_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/profile_pic"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_img"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="6dp">
+
+        <RelativeLayout
+            android:id="@+id/myJobBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/myJob"
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:background="@drawable/ic_my_job_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/myJob"
+                android:fontFamily="@font/ttnorm_medium"
+                android:textColor="#2C2C2C"
+                android:text="My jobs"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/savedJob"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_bookmark_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Saved jobs"
+                android:fontFamily="@font/ttnorm_medium"
+                android:layout_toRightOf="@+id/savedJob"
+                android:textColor="#2C2C2C"
+                android:layout_centerVertical="true"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/jobRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btns"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

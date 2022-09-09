@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailProfile.GalleryProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="130dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back"
+        android:backgroundTint="#F5EFEF"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <View
+            android:id="@+id/addVideoBtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_video_icon" />
+
+        <TextView
+            android:id="@+id/personalDetailProf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/greycliffcf_demibold"
+            android:text="Videos"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_add_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add videos"
+            android:textSize="20sp"
+            android:textColor="#DB4F7E"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back"
+        android:backgroundTint="#F5EFEF"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp">
+
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <View
+                android:id="@+id/addPhotoBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_photos_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/greycliffcf_demibold"
+                android:text="Photos"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_add_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add photos"
+            android:textSize="20sp"
+            android:textColor="#DB4F7E"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back"
+        android:backgroundTint="#F5EFEF"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp">
+
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <View
+                android:id="@+id/addAudioBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_audio_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/greycliffcf_demibold"
+                android:text="Audio"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_add_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add audios"
+            android:textSize="20sp"
+            android:textColor="#DB4F7E"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

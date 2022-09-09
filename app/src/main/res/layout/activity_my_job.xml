@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jobs.MyJobActivity">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/product_sans_medium"
+        android:text="My Jobs"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/o1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/temp"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/music_studio" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp">
+
+                <TextView
+                    android:id="@+id/title_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/greycliffcf_demibold"
+                    android:text="Required For Video Album Song Project"
+                    android:textColor="#FB5D5D"
+                    android:textSize="18sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/recruiter_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_job"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/ttnorm_medium"
+                    android:text="Digisoulbeats Music Studio"
+                    android:textColor="#1B1B1B"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_verified_icon"
+                    android:layout_below="@+id/title_job"
+                    android:layout_toRightOf="@+id/recruiter_job"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/location_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/recruiter_job"
+                    android:layout_marginTop="5dp"
+                    android:text="Chennai"
+
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_bookmark_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/o2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/o1"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/studio2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp">
+
+                <TextView
+                    android:id="@+id/title_job2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/greycliffcf_demibold"
+                    android:text="Actors Required For Acting And E-Commerce Print Shoot"
+                    android:textColor="#FB5D5D"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/recruiter_job2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_job2"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/ttnorm_medium"
+                    android:text="Ks Production"
+                    android:textColor="#1B1B1B"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_verified_icon"
+                    android:layout_below="@+id/title_job2"
+                    android:layout_toRightOf="@+id/recruiter_job2"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/recruiter_job2"
+                    android:layout_marginTop="5dp"
+                    android:text="Delhi NCR"
+
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_bookmark_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/o3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/o2"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/studio3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp">
+
+                <TextView
+                    android:id="@+id/title_job3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/greycliffcf_demibold"
+                    android:text="Acting &amp; Modeling Projects For National &amp; International Brands"
+                    android:textColor="#FB5D5D"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/recruiter_job3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_job3"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/ttnorm_medium"
+                    android:text="KJIT Studio"
+                    android:textColor="#1B1B1B"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_verified_icon"
+                    android:layout_below="@+id/title_job3"
+                    android:layout_toRightOf="@+id/recruiter_job3"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/recruiter_job3"
+                    android:layout_marginTop="5dp"
+                    android:text="Delhi NCR"
+
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_bookmark_icon" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

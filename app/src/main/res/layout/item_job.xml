@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_job"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/profile_pic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:id="@+id/title_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/greycliffcf_demibold"
+                android:text="Male Actor"
+                android:textColor="#FB5D5D"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/recruiter_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_job"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/ttnorm_medium"
+                android:text="Speed Film"
+                android:textColor="#1B1B1B"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_verified_icon"
+                android:layout_below="@+id/title_job"
+                android:layout_toRightOf="@+id/recruiter_job"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/location_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recruiter_job"
+                android:layout_marginTop="5dp"
+                android:text="Ahmedabad, Gujarat"
+
+                android:textSize="16sp" />
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:background="#C8C8C8"-->
+<!--                android:layout_below="@+id/location_job"-->
+<!--                android:layout_marginTop="4dp"/>-->
+
+<!--            <com.google.android.material.divider.MaterialDivider-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/location_job"-->
+<!--                android:layout_marginTop="8dp"/>-->
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_bookmark_icon" />
+
+</RelativeLayout>
